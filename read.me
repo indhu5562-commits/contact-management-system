@@ -1,0 +1,55 @@
+# Contact Management System
+
+A simple REST API-based Contact Management System developed using **Node.js, Express.js, MongoDB, and Mongoose**.
+
+The application allows users to create, view, update, and delete contacts with proper validation for contact ID, phone number, and email address.
+
+---
+
+## Features
+
+- Create a new contact
+- View all contacts
+- View a contact by ID
+- Update an existing contact
+- Delete a contact
+- Unique Contact ID validation
+- Required name validation
+- Exactly 10-digit phone number validation
+- Valid email format validation
+- Unique email validation
+- MongoDB database integration using Mongoose
+- Environment variable support using dotenv
+
+---
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- dotenv
+- Nodemon
+- JavaScript
+- Postman / Thunder Client for API testing
+
+---
+
+## Project Structure
+
+```text
+contact-management-system/
+│
+├── src/
+│   ├── models/
+│   │   └── contact.js
+│   │
+│   └── server.js
+│
+├── .env
+├── .gitignore
+├── Dockerfile
+├── package.json
+├── package-lock.json
+└── README.md
